@@ -1,4 +1,4 @@
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
@@ -6,7 +6,7 @@ $(call inherit-product, device/lge/d800/d800.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := d800
-PRODUCT_NAME := cm_d800
+PRODUCT_NAME := lineage_d800
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-D800
 PRODUCT_MANUFACTURER := lge
