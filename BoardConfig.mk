@@ -19,7 +19,5 @@ include device/lge/g2-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := lineageos_d800_defconfig
 
-TARGET_OTA_ASSERT_DEVICE := d800,g2,galbi
-
 G2_DTS_TARGET := msm8974-g2-att
 
